@@ -12,12 +12,13 @@ Additionally, the project provides actionable insights and suggestions for the c
 ## Business and Data Understanding
 
 ### Stakeholders
-The primary stakeholder for this project is SyriaTel, while secondary stakeholders include SyriaTel's management team, marketing department, and customer service team. 
+The primary stakeholder for this project is SyriaTel's management team, while secondary stakeholders include the marketing department, and customer service team. 
 This project aims to empower these stakeholders with data-driven insights to mitigate churn and enhance customer satisfaction.
 
 ### Business Problem
 1. **Customer Identification**: This project aims to predict which customers are likely to stay with SyriaTel and which are likely to churn based on data analysis and classification models.
-2. **Retention Strategies**: In addition to customer identification, the project offers suggestions on how SyriaTel can improve customer retention by addressing specific aspects identified through data analysis.
+2. **Identifying Patterns**: We are uncovering patterns and insights that can help SyriaTel better understand its customers.
+2. **Retention Strategies**: This Project also offers suggestions on how SyriaTel can improve customer retention by addressing specific aspects identified through data analysis.
 
 ### The Data
 The dataset used for this project was obtained from https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-datasetis labeled "bigml_59c28831336c6604c800002a.csv."
@@ -46,7 +47,7 @@ The final model, a Gradient Boosting Classifier, demonstrates excellent performa
 
 From the classification models and feature analysis, several key insights and recommendations for SyriaTel emerge:
 
-1. **Customer Service Calls**: Customers with a high number of service calls (specifically 4, 5, or 6 calls) have a significantly higher churn rate. The company should optimize customer service interactions and implement proactive strategies to address customer issues effectively.
+1. **Customer Service Calls**: Customers with a high number of service calls (more than 4 calls) have a significantly higher churn rate. The company should optimize customer service interactions and implement proactive strategies to address customer issues effectively.
 
 2. **International Plan**: Customers with international plans are more likely to churn. The company should assess the value and satisfaction of international plans and consider offering enhanced benefits to reduce churn.
 
